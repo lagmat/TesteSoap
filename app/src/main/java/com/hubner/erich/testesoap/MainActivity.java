@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected Void doInBackground(Void... params) {
-            Log.i(TAG, "doInBackground");
+            //Log.i(TAG, "doInBackground");
             IncluirVersao();
             //Teste();
             return null;
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         String SOAP_ACTION = "http://tempuri.org/IBrPayService/teste";
         String METHOD_NAME = "teste";
         String NAMESPACE = "http://tempuri.org/";
-        String URL = "https://hubnerspage.com.br/brpaysoap/BrPayService.svc?wsdl";
+        String URL = "https://www.hubnersoft.com/brpaysoap/BrPayService.svc?wsdl";
         //String URL = "http://10.1.1.51/web/dotnet/brpaysoap/BrPayService.svc?wsdl";
 
         try {
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
         String SOAP_ACTION = "http://tempuri.org/IBrPayService/IncluirVersao";
         String METHOD_NAME = "IncluirVersao";
         String NAMESPACE = "http://tempuri.org/";
-        String URL = "https://hubnerspage.com.br/brpaysoap/BrPayService.svc?wsdl";
+        String URL = "https://www.hubnersoft.com/brpaysoap/BrPayService.svc?wsdl";
         //String URL = "http://10.1.1.51/web/dotnet/brpaysoap/BrPayService.svc?wsdl";
 
         try {
